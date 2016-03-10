@@ -284,6 +284,7 @@ select_restart_action()
             systemctl=`which systemctl >/dev/null 2>&1; echo $?`
             service=`which service >/dev/null 2>&1; echo $?`
             
+
             RESTART_ACTION='service'
         ;;
         CentOS* )
